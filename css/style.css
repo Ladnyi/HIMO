@@ -57,6 +57,10 @@ a {
   transition: all 0.3s;
 }
 
+.menu__link:focus {
+  outline: 2px solid #6f6f6f;
+}
+
 .menu__link:hover {
   background-color: #131313;
   color: #fff;
@@ -108,6 +112,11 @@ a {
   line-height: 24px;
   letter-spacing: 1.1em;
   transition: all .3s;
+}
+
+.bike__link:focus {
+  outline: 2px solid #6f6f6f;
+  outline-offset: 2px;
 }
 
 .bike__link:hover {
@@ -333,6 +342,10 @@ a {
   margin-top: 10px;
 }
 
+.form__input:focus {
+  outline: 2px solid #6f6f6f;
+}
+
 .form__input::placeholder,
 .form__color-box-text {
   font-size: 14px;
@@ -357,6 +370,11 @@ a {
   padding: 0;
   border: none;
   cursor: pointer;
+}
+
+.form__select-color-btn:focus {
+  outline: 2px solid #6f6f6f;
+  outline-offset: 1px;
 }
 
 .form__select-color-btn--grey {
@@ -398,7 +416,6 @@ a {
 
 .active {
   display: block;
-
 }
 
 .form__buy {
@@ -414,6 +431,11 @@ a {
   padding-left: 30px;
   cursor: pointer;
   transition: all .3s;
+}
+
+.form__buy:focus {
+  outline: 2px solid #6f6f6f;
+  outline-offset: 2px;
 }
 
 .form__buy:hover {
@@ -447,6 +469,11 @@ a {
   text-decoration: underline;
 }
 
+.footer__policy:focus {
+  outline: 2px solid #e0e0e0;
+  outline-offset: 2px;
+}
+
 .footer__contacts {
   display: flex;
   flex-direction: column;
@@ -458,9 +485,19 @@ a {
   gap: 28px;
 }
 
+.footer__social-link:focus {
+  outline: 2px solid #e0e0e0;
+  outline-offset: 2px;
+}
+
 .footer__contacts-link {
   display: flex;
   align-items: center;
+}
+
+.footer__contacts-link:focus {
+  outline: 2px solid #e0e0e0;
+  outline-offset: 2px;
 }
 
 .footer__contacts-img {
